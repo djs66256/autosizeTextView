@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65A376501746A4F8002D6710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A3764F1746A4F8002D6710 /* UIKit.framework */; };
+		65A376521746A4F8002D6710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376511746A4F8002D6710 /* Foundation.framework */; };
+		65A376541746A4F8002D6710 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376531746A4F8002D6710 /* CoreGraphics.framework */; };
+		65A3765A1746A4F8002D6710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A376581746A4F8002D6710 /* InfoPlist.strings */; };
+		65A3765C1746A4F8002D6710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3765B1746A4F8002D6710 /* main.m */; };
+		65A376601746A4F8002D6710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3765F1746A4F8002D6710 /* AppDelegate.m */; };
+		65A376621746A4F8002D6710 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A376611746A4F8002D6710 /* Default.png */; };
+		65A376641746A4F8002D6710 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A376631746A4F8002D6710 /* Default@2x.png */; };
+		65A376661746A4F8002D6710 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A376651746A4F8002D6710 /* Default-568h@2x.png */; };
+		65A376691746A4F8002D6710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A376681746A4F8002D6710 /* ViewController.m */; };
+		65A3766C1746A4F8002D6710 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A3766A1746A4F8002D6710 /* ViewController.xib */; };
+		65A376741746A4F8002D6710 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376731746A4F8002D6710 /* SenTestingKit.framework */; };
+		65A376751746A4F8002D6710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A3764F1746A4F8002D6710 /* UIKit.framework */; };
+		65A376761746A4F8002D6710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376511746A4F8002D6710 /* Foundation.framework */; };
+		65A3767E1746A4F8002D6710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A3767C1746A4F8002D6710 /* InfoPlist.strings */; };
+		65A376811746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A376801746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65A376771746A4F8002D6710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A376441746A4F8002D6710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A3764B1746A4F8002D6710;
+			remoteInfo = DJSAutoSizePlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65A3764C1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSAutoSizePlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A3764F1746A4F8002D6710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65A376511746A4F8002D6710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65A376531746A4F8002D6710 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65A376571746A4F8002D6710 /* DJSAutoSizePlaceholderTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJSAutoSizePlaceholderTextView-Info.plist"; sourceTree = "<group>"; };
+		65A376591746A4F8002D6710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65A3765B1746A4F8002D6710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65A3765D1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DJSAutoSizePlaceholderTextView-Prefix.pch"; sourceTree = "<group>"; };
+		65A3765E1746A4F8002D6710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65A3765F1746A4F8002D6710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65A376611746A4F8002D6710 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		65A376631746A4F8002D6710 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		65A376651746A4F8002D6710 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65A376671746A4F8002D6710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65A376681746A4F8002D6710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65A3766B1746A4F8002D6710 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		65A376721746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJSAutoSizePlaceholderTextViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A376731746A4F8002D6710 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		65A3767B1746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJSAutoSizePlaceholderTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		65A3767D1746A4F8002D6710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65A3767F1746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSAutoSizePlaceholderTextViewTests.h; sourceTree = "<group>"; };
+		65A376801746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSAutoSizePlaceholderTextViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A376491746A4F8002D6710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A376501746A4F8002D6710 /* UIKit.framework in Frameworks */,
+				65A376521746A4F8002D6710 /* Foundation.framework in Frameworks */,
+				65A376541746A4F8002D6710 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A3766E1746A4F8002D6710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A376741746A4F8002D6710 /* SenTestingKit.framework in Frameworks */,
+				65A376751746A4F8002D6710 /* UIKit.framework in Frameworks */,
+				65A376761746A4F8002D6710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A376431746A4F8002D6710 = {
+			isa = PBXGroup;
+			children = (
+				65A376551746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */,
+				65A376791746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests */,
+				65A3764E1746A4F8002D6710 /* Frameworks */,
+				65A3764D1746A4F8002D6710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A3764D1746A4F8002D6710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A3764C1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView.app */,
+				65A376721746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A3764E1746A4F8002D6710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A3764F1746A4F8002D6710 /* UIKit.framework */,
+				65A376511746A4F8002D6710 /* Foundation.framework */,
+				65A376531746A4F8002D6710 /* CoreGraphics.framework */,
+				65A376731746A4F8002D6710 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65A376551746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				65A3765E1746A4F8002D6710 /* AppDelegate.h */,
+				65A3765F1746A4F8002D6710 /* AppDelegate.m */,
+				65A376671746A4F8002D6710 /* ViewController.h */,
+				65A376681746A4F8002D6710 /* ViewController.m */,
+				65A3766A1746A4F8002D6710 /* ViewController.xib */,
+				65A376561746A4F8002D6710 /* Supporting Files */,
+			);
+			path = DJSAutoSizePlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		65A376561746A4F8002D6710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A376571746A4F8002D6710 /* DJSAutoSizePlaceholderTextView-Info.plist */,
+				65A376581746A4F8002D6710 /* InfoPlist.strings */,
+				65A3765B1746A4F8002D6710 /* main.m */,
+				65A3765D1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView-Prefix.pch */,
+				65A376611746A4F8002D6710 /* Default.png */,
+				65A376631746A4F8002D6710 /* Default@2x.png */,
+				65A376651746A4F8002D6710 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A376791746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A3767F1746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.h */,
+				65A376801746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.m */,
+				65A3767A1746A4F8002D6710 /* Supporting Files */,
+			);
+			path = DJSAutoSizePlaceholderTextViewTests;
+			sourceTree = "<group>";
+		};
+		65A3767A1746A4F8002D6710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A3767B1746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests-Info.plist */,
+				65A3767C1746A4F8002D6710 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A3764B1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A376841746A4F8002D6710 /* Build configuration list for PBXNativeTarget "DJSAutoSizePlaceholderTextView" */;
+			buildPhases = (
+				65A376481746A4F8002D6710 /* Sources */,
+				65A376491746A4F8002D6710 /* Frameworks */,
+				65A3764A1746A4F8002D6710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJSAutoSizePlaceholderTextView;
+			productName = DJSAutoSizePlaceholderTextView;
+			productReference = 65A3764C1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A376711746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A376871746A4F8002D6710 /* Build configuration list for PBXNativeTarget "DJSAutoSizePlaceholderTextViewTests" */;
+			buildPhases = (
+				65A3766D1746A4F8002D6710 /* Sources */,
+				65A3766E1746A4F8002D6710 /* Frameworks */,
+				65A3766F1746A4F8002D6710 /* Resources */,
+				65A376701746A4F8002D6710 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A376781746A4F8002D6710 /* PBXTargetDependency */,
+			);
+			name = DJSAutoSizePlaceholderTextViewTests;
+			productName = DJSAutoSizePlaceholderTextViewTests;
+			productReference = 65A376721746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A376441746A4F8002D6710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = DuanJiashun;
+			};
+			buildConfigurationList = 65A376471746A4F8002D6710 /* Build configuration list for PBXProject "DJSAutoSizePlaceholderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65A376431746A4F8002D6710;
+			productRefGroup = 65A3764D1746A4F8002D6710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A3764B1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */,
+				65A376711746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A3764A1746A4F8002D6710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A3765A1746A4F8002D6710 /* InfoPlist.strings in Resources */,
+				65A376621746A4F8002D6710 /* Default.png in Resources */,
+				65A376641746A4F8002D6710 /* Default@2x.png in Resources */,
+				65A376661746A4F8002D6710 /* Default-568h@2x.png in Resources */,
+				65A3766C1746A4F8002D6710 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A3766F1746A4F8002D6710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A3767E1746A4F8002D6710 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65A376701746A4F8002D6710 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A376481746A4F8002D6710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A3765C1746A4F8002D6710 /* main.m in Sources */,
+				65A376601746A4F8002D6710 /* AppDelegate.m in Sources */,
+				65A376691746A4F8002D6710 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A3766D1746A4F8002D6710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A376811746A4F8002D6710 /* DJSAutoSizePlaceholderTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A376781746A4F8002D6710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A3764B1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */;
+			targetProxy = 65A376771746A4F8002D6710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65A376581746A4F8002D6710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A376591746A4F8002D6710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65A3766A1746A4F8002D6710 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A3766B1746A4F8002D6710 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		65A3767C1746A4F8002D6710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A3767D1746A4F8002D6710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A376821746A4F8002D6710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65A376831746A4F8002D6710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A376851746A4F8002D6710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65A376861746A4F8002D6710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65A376881746A4F8002D6710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DJSAutoSizePlaceholderTextView.app/DJSAutoSizePlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "DJSAutoSizePlaceholderTextViewTests/DJSAutoSizePlaceholderTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65A376891746A4F8002D6710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DJSAutoSizePlaceholderTextView.app/DJSAutoSizePlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJSAutoSizePlaceholderTextView/DJSAutoSizePlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "DJSAutoSizePlaceholderTextViewTests/DJSAutoSizePlaceholderTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A376471746A4F8002D6710 /* Build configuration list for PBXProject "DJSAutoSizePlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A376821746A4F8002D6710 /* Debug */,
+				65A376831746A4F8002D6710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A376841746A4F8002D6710 /* Build configuration list for PBXNativeTarget "DJSAutoSizePlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A376851746A4F8002D6710 /* Debug */,
+				65A376861746A4F8002D6710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A376871746A4F8002D6710 /* Build configuration list for PBXNativeTarget "DJSAutoSizePlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A376881746A4F8002D6710 /* Debug */,
+				65A376891746A4F8002D6710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A376441746A4F8002D6710 /* Project object */;
+}
