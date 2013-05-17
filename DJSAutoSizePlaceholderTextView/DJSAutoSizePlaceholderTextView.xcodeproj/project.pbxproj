@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6503B8201746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503B81D1746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.m */; };
+		6503B8211746BF2A007276E5 /* DJSPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503B81F1746BF2A007276E5 /* DJSPlaceholderTextView.m */; };
 		65A376501746A4F8002D6710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A3764F1746A4F8002D6710 /* UIKit.framework */; };
 		65A376521746A4F8002D6710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376511746A4F8002D6710 /* Foundation.framework */; };
 		65A376541746A4F8002D6710 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A376531746A4F8002D6710 /* CoreGraphics.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6503B81C1746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSAutoSizePlaceholderTextView.h; sourceTree = "<group>"; };
+		6503B81D1746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSAutoSizePlaceholderTextView.m; sourceTree = "<group>"; };
+		6503B81E1746BF2A007276E5 /* DJSPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSPlaceholderTextView.h; sourceTree = "<group>"; };
+		6503B81F1746BF2A007276E5 /* DJSPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSPlaceholderTextView.m; sourceTree = "<group>"; };
 		65A3764C1746A4F8002D6710 /* DJSAutoSizePlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSAutoSizePlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A3764F1746A4F8002D6710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65A376511746A4F8002D6710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +90,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6503B8151746BEDE007276E5 /* placeholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				6503B81C1746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.h */,
+				6503B81D1746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.m */,
+				6503B81E1746BF2A007276E5 /* DJSPlaceholderTextView.h */,
+				6503B81F1746BF2A007276E5 /* DJSPlaceholderTextView.m */,
+			);
+			name = placeholderTextView;
+			path = Class/placeholderTextView;
+			sourceTree = "<group>";
+		};
 		65A376431746A4F8002D6710 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +135,7 @@
 		65A376551746A4F8002D6710 /* DJSAutoSizePlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				6503B8151746BEDE007276E5 /* placeholderTextView */,
 				65A3765E1746A4F8002D6710 /* AppDelegate.h */,
 				65A3765F1746A4F8002D6710 /* AppDelegate.m */,
 				65A376671746A4F8002D6710 /* ViewController.h */,
@@ -273,6 +292,8 @@
 				65A3765C1746A4F8002D6710 /* main.m in Sources */,
 				65A376601746A4F8002D6710 /* AppDelegate.m in Sources */,
 				65A376691746A4F8002D6710 /* ViewController.m in Sources */,
+				6503B8201746BF2A007276E5 /* DJSAutoSizePlaceholderTextView.m in Sources */,
+				6503B8211746BF2A007276E5 /* DJSPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
